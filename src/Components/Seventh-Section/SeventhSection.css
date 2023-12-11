@@ -1,0 +1,20 @@
+.dog-human {
+  background-image: url("../../assets/Sixth-Seventh-Section/Seventh-Section-Background.svg");
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+  width: 100%;
+  margin-top: 100px;
+  margin-bottom: 200px;
+  position: relative;
+}
+.dog-human::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(253, 207, 53, 0.8);
+  z-index: 1;
+}

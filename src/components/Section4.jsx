@@ -7,8 +7,8 @@ export default function Section4(){
 
     return (
         <>
-            <div className="container m-5 second-section-bgcol">
-                <div className="row justify-content-center">
+            <div className="container justify-content-center mt-5 second-section-bgcol ">
+                <div className="row justify-content-center w-100">
                 <div id="section2_video_col" className ="col-lg-5 col-md-12 col-sm-12 m-5" style={{backgroundImage: 'url(${media_img})!important'}}>
                         <div className="second-section-image-container">
                             <img className= "img-fluid" src = {bg} alt="Background with Dog"></img>

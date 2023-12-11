@@ -1,0 +1,19 @@
+.sixth-section-heading {
+  font-weight: 900;
+  font-size: 3rem;
+}
+
+.sixth-section-paragraph {
+  font-size: 1.2rem;
+}
+.sixth-section-name {
+  margin-top: 20px;
+  font-weight: 600;
+}
+.sixth-section-role {
+  font-size: 1.2rem;
+}
+
+.sixth-section-icons {
+  display: flex;
+}

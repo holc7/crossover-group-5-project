@@ -1,16 +1,12 @@
 import React from "react";
-import logo from "../../public/assets/navbar/logo.svg"
+import logo from "../../public/assets/navbar/logo.svg";
 
 const Navbar = () => {
   return (
     <>
-      <nav className="p-3 mb-2 bg-warning text-dark flex-inline p-2 navbar sticky-top container-fluid">
+      <nav className="text-dark flex-inline p-2 navbar sticky-top container-fluid">
         <div className="logo navbar">
-          <img
-            src={logo}
-            class="img-fluid"
-            alt="company logo"
-          />
+          <img src={logo} class="img-fluid" alt="company logo" />
         </div>
         <div className="d-flex flex-row navbar d-inline-flex p-2">
           <ul className="navbar d-flex flex-row list-inline gap-4">
@@ -20,7 +16,10 @@ const Navbar = () => {
             <li href="#Contact">Contact</li>
           </ul>
         </div>
-        <div className="nav-search"><img src=""/><input></input></div>
+        <div className="nav-search">
+          <img src="" />
+          <input></input>
+        </div>
       </nav>
     </>
   );

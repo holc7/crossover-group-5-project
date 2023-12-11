@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;1,900&display=swap");
 
 body {
+  background-color: #fec400;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -9,7 +10,7 @@ body {
 .navbar {
   font-weight: 600;
   color: white;
-  background-color: #EBAD02;
+  background-color: #ebad02;
 }
 
 .sectionOne-dog {
@@ -17,6 +18,8 @@ body {
   background-position: right;
   height: 100vh;
   background-repeat: no-repeat;
+  background-color: #fec400;
+  margin-top: 100px;
 }
 
 .footer-container {
@@ -50,7 +53,36 @@ body {
 }
 
 .footer-section .tg-icon {
-  background-color: #00BFCC;
+  background-color: #00bfcc;
   height: 2rem;
+}
 
+.sectionOne-dog {
+  color: white;
+}
+
+.SectionOne {
+  font-size: 2rem;
+}
+
+.sectionOne-dog-heading {
+  font-size: 2.5rem;
+}
+
+.sectionOne-dog-paragraph {
+  font-size: 1.5rem;
+}
+
+.efbtn-lg {
+  background-color: #00c0cb;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+.efbtn-lg-1 {
+  background-color: transparent;
+  border-color: white;
+  padding: 15px 20px;
+  border-radius: 10px;
 }

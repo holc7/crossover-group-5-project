@@ -15,6 +15,34 @@
   left: 0;
   right: 0;
   bottom: 0;
-  background: rgba(253, 207, 53, 0.8);
+  background: #fec501;
+  opacity: 0.85;
   z-index: 1;
+}
+
+.doctor-icons {
+  z-index: 1;
+  position: relative;
+}
+
+.doctor-icons {
+  margin-bottom: 30px;
+}
+
+.seventh-section-icon-numbers-wrapper {
+  z-index: 1;
+  text-align: center;
+  position: relative;
+}
+
+.happy-clients {
+  font-weight: 600;
+  font-size: 2rem;
+  color: white;
+}
+
+.number-clients {
+  font-size: 1.5rem;
+  color: white;
+  font-weight: 600;
 }

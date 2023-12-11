@@ -8,6 +8,60 @@ body {
   box-sizing: border-box;
 }
 
+.second-section-bgcol{
+  background-color: white;
+}
+
+
+.second-section-p{
+  font-family:'Poppins', !important;
+  font-weight:400;
+  font-size: 1.0rem;
+}
+
+.second-section-button{
+  font-family:'Poppins', !important;
+  font-size: 0.8rem;
+  background-color: #ffc400;
+  color: white;
+  /*border-color: #ffc400;*/
+  box-shadow: none, !important;
+  box-shadow: unset;
+  border:none;
+  padding: 0.5rem;
+  padding-left: 0.8rem;
+  padding-right:0.8rem;
+}
+
+.second-section-heading{
+  font-family:'Poppins', !important;
+  font-weight:700;
+  font-size:2.0rem;
+}
+
+.second-section-media-preview{
+  background-image: url('../assets/second_section_bg.svg');
+}
+
+.second-section-arrow-right{
+  position: absolute;
+  top: 40%;
+  left: 45%;
+}
+
+.second-section-arrow-left{
+  position: absolute;
+  top: 40%;
+  left: 38%;
+}
+
+
+.second-section-image-container{
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
 .navbar {
   font-weight: 600;
   color: white;

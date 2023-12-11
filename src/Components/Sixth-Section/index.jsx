@@ -15,7 +15,7 @@ const SixthSection = () => {
         <Col className="sixth-section-wrapper text-center mt-5">
           <h2 className="sixth-section-heading">The vetcare team</h2>
           <p className="sixth-section-paragraph">
-            Lorem ipsum available, but the majority have suffered diteration in
+            Lorem ipsum available, but the majority have suffered alteration in
             some form.
           </p>
         </Col>

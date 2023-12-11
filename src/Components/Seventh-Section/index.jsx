@@ -58,58 +58,121 @@ const SeventhSection = () => {
       </Container>
 
       <Container>
-        <Row className="d-flex align-items-center justify-content-center  mt-5">
-          <Card style={{ width: "18rem" }} className="mx-3">
-            <Card.Img variant="top" src={doc1} />
-            <Card.Body>
-              <Card.Title>As a veterinarian and lover of animals</Card.Title>
-              <Card.Text className="seventh-section-date-text">
-                FEBRUARY 09,2020
-              </Card.Text>
-              <Card.Text>
-                Lorem Ipsum available, but the majority have suffered alteration
-                in some words which look.
-              </Card.Text>
-              <Card.Text className="seventh-section-date-read-text">
-                Read More +
-              </Card.Text>
-            </Card.Body>
-          </Card>
-          <Card style={{ width: "18rem" }} className="mx-3">
-            <Card.Img variant="top" src={doc2} />
-            <Card.Body>
-              <Card.Title>As a veterinarian and lover of animals</Card.Title>
-              <Card.Text className="seventh-section-date-text">
-                FEBRUARY 10,2020
-              </Card.Text>
-              <Card.Text>
-                Lorem Ipsum available, but the majority have suffered alteration
-                in some words which look.
-              </Card.Text>
-              <Card.Text className="seventh-section-date-read-text">
-                Read More +
-              </Card.Text>
-            </Card.Body>
-          </Card>
-          <Card style={{ width: "18rem" }} className="mx-3">
-            <Card.Img variant="top" src={doc3} />
-            <Card.Body>
-              <Card.Title>As a veterinarian and lover of animals</Card.Title>
-              <Card.Text className="seventh-section-date-text">
-                FEBRUARY 11,2020
-              </Card.Text>
+        <Row className="justify-content-center mt-5">
+          <Col xs={10} sm={8} md={6} lg={4} xl={3} className="mb-4">
+            <Card className="h-100 d-flex flex-column shadow">
+              <Card.Img style={{ height: "300px" }} variant="top" src={doc1} />
+              <Card.Body className="flex-grow-1 d-flex flex-column">
+                <Card.Title>As a veterinarian and lover of animals</Card.Title>
+                <Card.Text className="seventh-section-date-text">
+                  FEBRUARY 09,2020
+                </Card.Text>
+                <Card.Text>
+                  Lorem Ipsum available, but the majority have suffered
+                  alteration in some words which look.
+                </Card.Text>
+                <Card.Text className="seventh-section-date-read-text">
+                  Read More +
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
 
-              <Card.Text>
-                Lorem Ipsum available, but the majority have suffered alteration
-                in some words which look.
-              </Card.Text>
-              <Card.Text className="seventh-section-date-read-text">
-                Read More +
-              </Card.Text>
-            </Card.Body>
-          </Card>
+          <Col xs={10} sm={8} md={6} lg={4} xl={3} className="mb-4">
+            <Card className="h-100 d-flex flex-column shadow">
+              <Card.Img style={{ height: "300px" }} variant="top" src={doc2} />
+              <Card.Body className="flex-grow-1 d-flex flex-column">
+                <Card.Title>As a veterinarian and lover of animals</Card.Title>
+                <Card.Text className="seventh-section-date-text">
+                  FEBRUARY 10,2020
+                </Card.Text>
+                <Card.Text>
+                  Lorem Ipsum available, but the majority have suffered
+                  alteration in some words which look.
+                </Card.Text>
+                <Card.Text className="seventh-section-date-read-text">
+                  Read More +
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
+
+          <Col xs={10} sm={8} md={6} lg={4} xl={3} className="mb-4">
+            <Card className="h-100 d-flex flex-column shadow">
+              <Card.Img style={{ height: "300px" }} variant="top" src={doc3} />
+              <Card.Body className="flex-grow-1 d-flex flex-column">
+                <Card.Title>As a veterinarian and lover of animals</Card.Title>
+                <Card.Text className="seventh-section-date-text">
+                  FEBRUARY 11,2020
+                </Card.Text>
+                <Card.Text>
+                  Lorem Ipsum available, but the majority have suffered
+                  alteration in some words which look.
+                </Card.Text>
+                <Card.Text className="seventh-section-date-read-text">
+                  Read More +
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Col>
         </Row>
       </Container>
+
+      {/*   <Container>
+        <Col xs={10} sm={8} md={6} lg={4} xl={3} className="mb-4">
+          <Row className="d-flex align-items-center justify-content-center  mt-5">
+            <Card style={{ width: "18rem" }} className="mx-3">
+              <Card.Img variant="top" src={doc1} />
+              <Card.Body>
+                <Card.Title>As a veterinarian and lover of animals</Card.Title>
+                <Card.Text className="seventh-section-date-text">
+                  FEBRUARY 09,2020
+                </Card.Text>
+                <Card.Text>
+                  Lorem Ipsum available, but the majority have suffered
+                  alteration in some words which look.
+                </Card.Text>
+                <Card.Text className="seventh-section-date-read-text">
+                  Read More +
+                </Card.Text>
+              </Card.Body>
+            </Card>
+            <Card style={{ width: "18rem" }} className="mx-3">
+              <Card.Img variant="top" src={doc2} />
+              <Card.Body>
+                <Card.Title>As a veterinarian and lover of animals</Card.Title>
+                <Card.Text className="seventh-section-date-text">
+                  FEBRUARY 10,2020
+                </Card.Text>
+                <Card.Text>
+                  Lorem Ipsum available, but the majority have suffered
+                  alteration in some words which look.
+                </Card.Text>
+                <Card.Text className="seventh-section-date-read-text">
+                  Read More +
+                </Card.Text>
+              </Card.Body>
+            </Card>
+            <Card style={{ width: "18rem" }} className="mx-3">
+              <Card.Img variant="top" src={doc3} />
+              <Card.Body>
+                <Card.Title>As a veterinarian and lover of animals</Card.Title>
+                <Card.Text className="seventh-section-date-text">
+                  FEBRUARY 11,2020
+                </Card.Text>
+
+                <Card.Text>
+                  Lorem Ipsum available, but the majority have suffered
+                  alteration in some words which look.
+                </Card.Text>
+                <Card.Text className="seventh-section-date-read-text">
+                  Read More +
+                </Card.Text>
+              </Card.Body>
+            </Card>
+          </Row>
+        </Col>
+      </Container> */}
     </div>
   );
 };

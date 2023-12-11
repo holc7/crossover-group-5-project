@@ -6,6 +6,11 @@ body {
   box-sizing: border-box;
 }
 
+.second-section-bgcol{
+  background-color: white;
+}
+
+
 .second-section-p{
   font-family:'Poppins', !important;
   font-weight:400;

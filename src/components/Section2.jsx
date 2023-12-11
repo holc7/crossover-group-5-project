@@ -7,7 +7,7 @@ export default function Section2(){
 
     return (
         <>
-            <div className="container m-5">
+            <div className="container m-5 second-section-bgcol">
                 <div className="row justify-content-center"> 
                     <div className ="col-lg-5 col-md-12 col-sm-12 m-5 justify-content-center ">
 

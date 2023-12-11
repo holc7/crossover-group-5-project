@@ -58,8 +58,8 @@ const SeventhSection = () => {
       </Container>
 
       <Container>
-        <Row className="d-flex align-items-center justify-content-center mt-5">
-          <Card style={{ width: "18rem" }}>
+        <Row className="d-flex align-items-center justify-content-center  mt-5">
+          <Card style={{ width: "18rem" }} className="mx-3">
             <Card.Img variant="top" src={doc1} />
             <Card.Body>
               <Card.Title>As a veterinarian and lover of animals</Card.Title>
@@ -70,12 +70,12 @@ const SeventhSection = () => {
                 Lorem Ipsum available, but the majority have suffered alteration
                 in some words which look.
               </Card.Text>
-              <Card.Text className="seventh-section-date-text">
+              <Card.Text className="seventh-section-date-read-text">
                 Read More +
               </Card.Text>
             </Card.Body>
           </Card>
-          <Card style={{ width: "18rem" }}>
+          <Card style={{ width: "18rem" }} className="mx-3">
             <Card.Img variant="top" src={doc2} />
             <Card.Body>
               <Card.Title>As a veterinarian and lover of animals</Card.Title>
@@ -86,12 +86,12 @@ const SeventhSection = () => {
                 Lorem Ipsum available, but the majority have suffered alteration
                 in some words which look.
               </Card.Text>
-              <Card.Text className="seventh-section-date-text">
+              <Card.Text className="seventh-section-date-read-text">
                 Read More +
               </Card.Text>
             </Card.Body>
           </Card>
-          <Card style={{ width: "18rem" }}>
+          <Card style={{ width: "18rem" }} className="mx-3">
             <Card.Img variant="top" src={doc3} />
             <Card.Body>
               <Card.Title>As a veterinarian and lover of animals</Card.Title>
@@ -103,7 +103,7 @@ const SeventhSection = () => {
                 Lorem Ipsum available, but the majority have suffered alteration
                 in some words which look.
               </Card.Text>
-              <Card.Text className="seventh-section-date-text">
+              <Card.Text className="seventh-section-date-read-text">
                 Read More +
               </Card.Text>
             </Card.Body>

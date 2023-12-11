@@ -31,6 +31,19 @@ body {
   font-size:2.0rem;
 }
 
-.second_section-media_preview{
+.second-section-media-preview{
   background-image: url('../assets/second_section_bg.svg');
+}
+
+.second-section-arrow-right{
+  position: absolute;
+  top: 145px;
+  left: 145px;
+  border: 1px green solid;
+}
+
+.second-section-image-container{
+  position: relative;
+  top: 0;
+  left: 0;
 }

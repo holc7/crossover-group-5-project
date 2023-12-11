@@ -16,6 +16,7 @@ body {
   font-family:'Poppins', !important;
   font-size: 0.8rem;
   background-color: #ffc400;
+  color: white;
   /*border-color: #ffc400;*/
   box-shadow: none, !important;
   box-shadow: unset;
@@ -37,10 +38,16 @@ body {
 
 .second-section-arrow-right{
   position: absolute;
-  top: 145px;
-  left: 145px;
-  border: 1px green solid;
+  top: 38%;
+  left: 43%;
 }
+
+.second-section-arrow-left{
+  position: absolute;
+  top: 38%;
+  left: 38%;
+}
+
 
 .second-section-image-container{
   position: relative;

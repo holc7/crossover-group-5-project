@@ -9,10 +9,10 @@ export default function Section2(){
         <>
             <div className="container m-5">
                 <div className="row justify-content-center"> 
-                    <div className ="col-lg-5 col-md-12 col-sm-12 m-5 ">
+                    <div className ="col-lg-5 col-md-12 col-sm-12 m-5 justify-content-center ">
 
-                        <div id="section2_text_row"className ="row mt-5">
-                            <div id="section2_video_col" className ="col text-start">
+                        <div id="section2_text_row"className ="row mt-5 justify-content-center ">
+                            <div id="section2_video_col" className ="col text-start mt-5">
                                 <h2 className="second-section-heading">As a veterinarian and lover of animals</h2>
                                 <p className="second-section-p" >Lorem Ipsum available but the majoty suffered alteration in some form, by
 humour randomised words.</p>

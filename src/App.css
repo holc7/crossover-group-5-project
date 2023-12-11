@@ -1,7 +1,276 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,300;0,400;0,600;1,900&display=swap");
 
 body {
+  font-family: Poppins;
+  background-color: #fec400;
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
+
+.second-section-bgcol{
+  background-color: white;
+}
+
+
+.second-section-p{
+  font-family:'Poppins', !important;
+  font-weight:400;
+  font-size: 1.0rem;
+}
+
+.second-section-button{
+  font-family:'Poppins', !important;
+  font-size: 0.8rem;
+  background-color: #ffc400;
+  color: white;
+  /*border-color: #ffc400;*/
+  box-shadow: none, !important;
+  box-shadow: unset;
+  border:none;
+  padding: 0.5rem;
+  padding-left: 0.8rem;
+  padding-right:0.8rem;
+}
+
+.second-section-heading{
+  font-family:'Poppins', !important;
+  font-weight:700;
+  font-size:2.0rem;
+}
+
+.second-section-media-preview{
+  background-image: url('../assets/second_section_bg.svg');
+}
+
+.second-section-arrow-right{
+  position: absolute;
+  top: 40%;
+  left: 45%;
+}
+
+.second-section-arrow-left{
+  position: absolute;
+  top: 40%;
+  left: 38%;
+}
+
+
+.second-section-image-container{
+  position: relative;
+  top: 0;
+  left: 0;
+}
+
+.navbar {
+  font-weight: 600;
+  color: white;
+  background-color: #ebad02;
+}
+
+.sectionOne-dog {
+  background-image: url("../../public/assets/sectionOne/dog.svg");
+  background-position: right;
+  height: 100vh;
+  background-repeat: no-repeat;
+  background-color: #fec400;
+  margin-top: 100px;
+}
+
+.footer-container {
+  padding: 5rem 4rem;
+  flex: auto;
+  columns: 3;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer-icons {
+  padding: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.footer-section .search {
+  display: flex;
+  align-items: right;
+  height: 2rem;
+}
+
+.footer-section .search {
+  display: inline-flex;
+  background-color: #fec501;
+  border: none;
+  align-self: right;
+}
+
+.footer-section .tg-icon {
+  background-color: #00bfcc;
+  height: 2rem;
+}
+
+.sectionOne-dog {
+  color: white;
+}
+
+.SectionOne {
+  font-size: 2rem;
+}
+
+.sectionOne-dog-heading {
+  font-size: 2.5rem;
+}
+
+.sectionOne-dog-paragraph {
+  font-size: 1.5rem;
+}
+
+.efbtn-lg {
+  background-color: #00c0cb;
+  border: none;
+  padding: 15px 20px;
+  border-radius: 10px;
+  margin-right: 20px;
+}
+.efbtn-lg-1 {
+  background-color: transparent;
+  border-color: white;
+  padding: 15px 20px;
+  border-radius: 10px;
+}
+
+
+/*--- Third-Section and Fifth- Section by Darko Css ---*/
+
+.third-section,
+.fifth-section {
+  text-align: center;
+  color: #fff;
+  background-color: #fcc302;
+  padding: 100px 0px;
+}
+
+.third-section .third-section-title,
+.fifth-section .fifth-section-title {
+  font-size: 75px;
+  font-weight: 600;
+  margin-bottom: 20px;
+}
+.third-section .third-section-subtitle,
+.fifth-section .fifth-section-subtitle {
+  font-size: 33px;
+  max-width: 600px;
+  margin: auto;
+  margin-bottom: 60px;
+}
+
+.third-section .third-section-card,
+.fifth-section .fifth-section-card {
+  padding: 30px;
+}
+
+.third-section .third-section-card img,
+.fifth-section .fifth-section-card img {
+  display: block;
+  height: auto;
+  width: 100%;
+}
+.third-section-card .third-section-card-text,
+.fifth-section-card .fifth-section-card-text {
+  margin-top: 30px;
+}
+
+.third-section .third-section-card-text h4,
+.fifth-section .fifth-section-card-text h4 {
+  font-size: 37px;
+  font-weight: bold;
+}
+
+.third-section .third-section-card-text p {
+  font-size: 25px;
+  margin-top: 20px;
+}
+
+.fifth-section .fifth-section-line-through {
+  position: relative;
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.fifth-section .fifth-section-line-through::before {
+  content: "";
+  display: block;
+  position: relative;
+  background-color: white;
+  left: -0px;
+  right: 25px;
+  top: 25px;
+  width: 100px;
+  height: 3px;
+}
+
+.fifth-section .fifth-section-card-button {
+  margin-top: 20px;
+  background-color: #00bec9;
+  color: #fff;
+  outline: none;
+  border: none;
+  padding: 10px 29px;
+  border-radius: 20px;
+}
+
+.fifth-section .fifth-section-card-button:hover {
+  margin-top: 20px;
+  color: #00bec9;
+  background-color: #fff;
+  outline: none;
+  border: none;
+  padding: 10px 29px;
+  border-radius: 20px;
+}
+
+@media (max-width: 992px) {
+  .third-section,
+  .fifth-section {
+    padding: 80px 0px;
+  }
+  .third-section .third-section-title,
+  .fifth-section .fifth-section-title {
+    font-size: 50px;
+  }
+  .third-section .third-section-subtitle,
+  .fifth-section .fifth-section-subtitle {
+    font-size: 28px;
+  }
+  .third-section .third-section-card-text h4,
+  .fifth-section .fifth-section-card-text h4 {
+    font-size: 25px;
+  }
+  .third-section .third-section-card-text p {
+    font-size: 20px;
+  }
+  .fifth-section .fifth-section-line-through::before {
+    top: 18px;
+  }
+}
+
+@media (max-width: 767px) {
+  .third-section,
+  .fifth-section {
+    padding: 60px 0px;
+  }
+  .third-section .third-section-title,
+  .fifth-section .fifth-section-title {
+    font-size: 40px;
+  }
+  .third-section .third-section-subtitle,
+  .fifth-section .fifth-section-subtitle {
+    font-size: 25px;
+    padding: 0 10px;
+  }
+}
+
+/*--- End Third-Section and Fifth- Section by Darko Css ---*/

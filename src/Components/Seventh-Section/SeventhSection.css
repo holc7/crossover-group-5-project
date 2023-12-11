@@ -1,0 +1,66 @@
+.dog-human {
+  background-image: url("../../assets/Sixth-Seventh-Section/Seventh-Section-Background.svg");
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+  width: 100%;
+  margin-top: 100px;
+
+  position: relative;
+}
+.dog-human::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #fec501;
+  opacity: 0.85;
+  z-index: 1;
+}
+
+.doctor-icons {
+  z-index: 1;
+  position: relative;
+}
+
+.doctor-icons {
+  margin-bottom: 30px;
+}
+
+.seventh-section-icon-numbers-wrapper {
+  z-index: 1;
+  text-align: center;
+  position: relative;
+}
+
+.happy-clients {
+  font-weight: 600;
+  font-size: 2rem;
+  color: white;
+}
+
+.number-clients {
+  font-size: 1.5rem;
+  color: white;
+  font-weight: 600;
+}
+
+.seventh-section-heading {
+  font-weight: 900;
+  font-size: 3rem;
+}
+
+.seventh-section-paragraph {
+  font-size: 1.2rem;
+}
+
+.seventh-section-date-text {
+  color: #00bac6;
+}
+
+.seventh-section-date-read-text {
+  color: #00bac6;
+  font-weight: 600;
+}

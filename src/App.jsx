@@ -1,5 +1,7 @@
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
+import ThirdSection from "./components/ThirdSection";
+import FifthSection from "./components/FifthSection";
 import Navbar from "./components/Navbar";
 import SectionOne from "./components/SectionOne";
 import { Footer } from "./components/Footer";
@@ -9,11 +11,13 @@ import SeventhSection from "./Components/Seventh-Section";
 function App() {
   return (
     <>
-      <Navbar />
-      <SectionOne />
-      <SixthSection />
-      <SeventhSection />
-      <Footer />
+    <Navbar/>
+    <SectionOne/>
+      <ThirdSection />
+      <FifthSection />
+      <SixthSection/>
+      <SeventhSection/>
+      <Footer/>
     </>
   );
 }

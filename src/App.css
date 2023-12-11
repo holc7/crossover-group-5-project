@@ -5,3 +5,52 @@ body {
   padding: 0;
   box-sizing: border-box;
 }
+
+.navbar {
+  font-weight: 600;
+  color: white;
+  background-color: #EBAD02;
+}
+
+.sectionOne-dog {
+  background-image: url("../../public/assets/sectionOne/dog.svg");
+  background-position: right;
+  height: 100vh;
+  background-repeat: no-repeat;
+}
+
+.footer-container {
+  padding: 5rem 4rem;
+  flex: auto;
+  columns: 3;
+}
+
+.footer-section ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+.footer-icons {
+  padding: 1rem;
+  display: flex;
+  gap: 1rem;
+}
+
+.footer-section .search {
+  display: flex;
+  align-items: right;
+  height: 2rem;
+}
+
+.footer-section .search {
+  display: inline-flex;
+  background-color: #fec501;
+  border: none;
+  align-self: right;
+}
+
+.footer-section .tg-icon {
+  background-color: #00BFCC;
+  height: 2rem;
+
+}
